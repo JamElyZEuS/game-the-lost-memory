@@ -15,9 +15,9 @@ Yuyuko Saigyouji, a ghost living in Gensokyo, is curious to find out about her p
 * Explore three possible endings, depending on your actions.
 
 ### Controls:
-Left stick/Arrows — Move
-X button/A — Attack
-B button/X — Suika Shot
-A button/Z — Advance the dialogue
-Start/P — Pause and collectibles status
-LB/F4 — Toggle fullscreen mode
+* **Left stick/Arrows** — Move
+* **X button/A** — Attack
+* **B button/X** — Suika Shot
+* **A button/Z** — Advance the dialogue
+* **Start/P** — Pause and collectibles status
+* **LB/F4** — Toggle fullscreen mode
