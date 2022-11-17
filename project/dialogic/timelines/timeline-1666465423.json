@@ -1,0 +1,98 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know it doesn't suit someone like me well, but I'm starting to tire out.\nHalf of a night has already passed."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "I'm quite tired myself. But I can't give up now.\nSomething's desperately trying to push me to the truth."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Don't worry."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "I'm still here, after all! We will find everything in no time, I assure you!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Thank you, Suika. I really appreciate your help."
+		},
+		{
+			"change_scene": "res://Level3.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666465423.json",
+		"name": "Level2_end"
+	}
+}

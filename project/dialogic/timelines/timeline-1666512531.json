@@ -1,0 +1,476 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "stop",
+				"target_node_path": "../../AudioStreamPlayer2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/flashback.ogg",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/youmu_end1.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko! Please, stop! I beg you!\nI knew it was foolish of me to think I can defeat you, but still!\nJust listen to me!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Youmu…"
+		},
+		{
+			"background": "res://sprites/CG/youmu_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know you’re worried about me, but think about my side of things for a second.\nI live… or something like that, being a ghost for a thousand years, if not more.\nAnd all this time I don’t know anything about myself.\nAll ghosts are former humans, and I just can’t help it but to try knowing my human side."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I understand how you feel, Lady Yuyuko. But I definitely know it’s dangerous for you to find out."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Can’t you tell me why, Youmu?"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m sorry, but… no."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I see..."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t worry. I’m already so close to knowing the truth, and yet I’m still here. Everything’s going to be okay."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end4.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko…!"
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"background": "res://sprites/CG/saigyou_fb.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1667059144.cfg"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/levelfinal_start.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Three more. Three more people are in Heaven because of me."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s been a week since my first visit here.\nAnd, all things considered, I made a decision."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So many people are suffering from my curse. And so many can’t even suffer anymore.\nIt’s time to stop this madness."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s the only way.\nBut I can’t just do that and waste an opportunity."
+		},
+		{
+			"background": "res://sprites/CG/saigyou_fb.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And as a farewell gift, I want to make an offer to you.\nI want people to live. And if that means I can’t live myself, so be it.\nIf we’re really sisters in curse…\nIf you want people to be happy and enjoy their lives…"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please. Begone.\nWith me."
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I… see."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "H-Huh? Lady Yuyuko?"
+		},
+		{
+			"background": "res://sprites/CG/youmu_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/titlescreen.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I finally remembered.\nEverything."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, my ability of death manipulation was in my past life too.\nBut it seems I couldn't control it well, so...\nWait...\nIf Saigyou Ayakashi is here, in Gensokyo, then...?"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "N-No… Please… Say that you’re joking…"
+		},
+		{
+			"background": "res://sprites/CG/youmu_end3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m dead serious, Youmu.\nGet it?"
+		},
+		{
+			"background": "res://sprites/CG/youmu_end4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nI guess it’s not the right time for jokes. I feel… lightheaded."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Youmu… I guess something is happening. But…\nI finally have peace of mind. I feel… free."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Youmu. As the mistress of Hakugyokurou, I order you to… take care of this place."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And take care of… yourself.\nYou are half-human, after all."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You have your entire half-life ahead.\nHa-ha…"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...!\nNo... You're...!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Farewell… and thank you…"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nI will always remember your order.\nAnd I..."
+		},
+		{
+			"background": "res://sprites/CG/end_good.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...will take care of you too, Lady Yuyuko."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"definition": "1666507965-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THE FREEDOM OF KNOWLEDGE - END"
+		},
+		{
+			"change_scene": "res://MainMenu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666512531.json",
+		"name": "end_good"
+	}
+}

@@ -1,0 +1,377 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smile",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, this thing will do as a great watermelon cart!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A watermelon cart?\nWhy do you even need a cart for them? Just eat them on the spot."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Gosh, again."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Wait, but for real! I’m an oni, I can move them all with my bare hands!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I guess that’s alright too. Wait, you were talking about this thing?"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "stop",
+				"target_node_path": "../../../AudioStreamPlayer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"background": "res://sprites/CG/car.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, what about it?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nThis is…"
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1667059144.cfg"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/flashback.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m sorry, Yuyuko-san. You already had it tough in your life, and now… That poor girl…"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You don’t need to be sorry. It’s all because of me."
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yuyuko-san! What are you talking about? Of course it’s not your fault!\nThat inventor guy just decided to test his crazy “motor cart” knowing it was incomplete!\nYou shouldn’t blame yourself for that crash!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But…"
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry. I should’ve just let you go home.\nPlease, Yuyuko-san. You should have some rest."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know it is my fault.\nYesterday Ayaka and I were in guy’s laboratory. She brought me there to “test some cool cart that moves by itself!”."
+		},
+		{
+			"background": "res://sprites/CG/motor_fb.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everything was fully functional.\nThat invention could be revolutionary for science; no, it already was.\nBut today…"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nThat’s all because of my curse.\nThat scientist.\nAyaka.\nFather.\nEveryone who is close to me…\nDies."
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"definition": "1666455463-141",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "F-Father?\nCurse?\nI know I can manipulate the death, but…"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I forgot what I was thinking about seconds ago."
+		},
+		{
+			"condition": "",
+			"definition": "1666455388-861",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Again."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you really alright, Yuyuko? I think we should leave this place."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "N-no, no, everything’s fine. We still haven’t looked everywhere."
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "play",
+				"target_node_path": "../../../AudioStreamPlayer"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I wonder if you just enjoy releasing your hidden anger on poor fairies."
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_off",
+				"target_node_path": "../../../Player"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666462080.json",
+		"name": "Shattered2"
+	}
+}

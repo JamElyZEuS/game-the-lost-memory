@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/youmu_first.ogg-73e85a19b034f5cb65a6387d4591fd8e.oggstr"
+
+[deps]
+
+source_file="res://bgm/youmu_first.ogg"
+dest_files=[ "res://.import/youmu_first.ogg-73e85a19b034f5cb65a6387d4591fd8e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,212 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Youmu"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1666535528-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/levelfinal_start.ogg",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That was quite a failure. Well, maybe something here will refresh my memory…"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Where have you been?"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh, Youmu. I was just going for a walk."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "A walk? Alone? That’s odd, knowing you."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no. Could it be that she…?"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes closed",
+			"text": "You can’t fool me, Lady Yuyuko. You were trying to know about your past, aren’t you? You even took an oni along."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Past? I certainly know about what I ate on breakfast."
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "play",
+				"target_node_path": "../../AudioStreamPlayer2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes closed",
+			"text": "I’m sorry for that, Lady Yuyuko, but it’s for your own good.\nIt’s my duty as a guardian of Hakugyokurou."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Youmu… I guess I have no choice now."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Prepare yourself!"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_off",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_off",
+				"target_node_path": "../../Youmu"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666472300.json",
+		"name": "LevelFinal_start"
+	}
+}

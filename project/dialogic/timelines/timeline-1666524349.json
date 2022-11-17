@@ -1,0 +1,602 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "stop",
+				"target_node_path": "../../AudioStreamPlayer2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/flashback.ogg",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/youmu_end1.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko! Please, stop! I beg you!\nI knew it was foolish of me to think I can defeat you, but still!\nJust listen to me!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Youmu…"
+		},
+		{
+			"background": "res://sprites/CG/youmu_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know you’re worried about me, but think about my side of things for a second.\nI live… or something like that, being a ghost for a thousand years, if not more.\nAnd all this time I don’t know anything about myself.\nAll ghosts are former humans, and I just can’t help it but to try knowing my human side."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I understand how you feel, Lady Yuyuko. But I definitely know it’s dangerous for you to find out."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t worry. I’m already so close to knowing the truth, and yet I’m still here. Everything’s going to be okay."
+		},
+		{
+			"background": "res://sprites/CG/youmu_end4.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko…!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666520936.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1666520936.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What…?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://sprites/CG/iris_anima_fb.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://sprites/CG/motor_fb.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://sprites/CG/saigyou_fb.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1667059144.cfg"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What is this place?\nIt’s so… beautiful."
+		},
+		{
+			"background": "res://sprites/CG/true_end1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cherry trees are everywhere.\nClouds seem so close that it feels like I can touch them if I take a ladder."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait, are t-these…?"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, GHOSTS!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A lot of white blobs are flying here and there!\nBut… why?"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Am I…?"
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/flashback_thelast.ogg",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/true_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Who are you?"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m Youmu Konpaku, a guardian and gardener of this place!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A guardian? A little girl like you?"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t underestimate me! I had a lot of training with my sensei!\nAnd now you are my sensei and my mistress, so it’s nice to meet you!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mistress?"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, you still don’t know?\nYou are now a mistress of Hakugyokurou, this place, that is located in the Netherworld.\nYour objective is making a good place for nice souls to rest before the reincarnation or ascension."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow. That’s a lot to accept and remember at once."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t be afraid! You’ll get the gist of it in no time!\nI believe in you!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aw, thanks! You’re so cute!\nLet me hug you a little!"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "H-Hey, wait…!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1.5,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"background": "res://sprites/CG/true_end3.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I see now. I finally understand."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko…?"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you so much, Youmu. Now I remember.\nRemember the most important thing."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I remembered that first day when I arrived here.\nOn that day, I met her."
+		},
+		{
+			"background": "res://sprites/CG/true_end2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A small, yet brave and strong girl.\nFrom the very first day, she had been helping me with any task I assigned to her."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So how could I not trust her that it is dangerous to know that truth about my past?"
+		},
+		{
+			"background": "res://sprites/CG/saigyou_irl.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Still, something’s still wandering in deep corners of my memory.\nThe fragments of the past I was so desperate to find out."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Even if these memories are blurred out and somewhat incomprehensible…\nI can feel the emotions from them.\nAnd they are telling me to move on."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://bgm/flashback_thelast.ogg",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/true_end3.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s time to live a life I have now.\nMore like “unlive a unlife”, though, ehe-he."
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lady Yuyuko! That means…!"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're right, Youmu. We’re going to move on to all the food stalls of the village!"
+		},
+		{
+			"background": "res://sprites/CG/true_end4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"background": "res://sprites/CG/true_end5.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1666472160.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...Of course. Welcome back, Lady Yuyuko."
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad smile",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...I'm home."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"definition": "1667057147-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THE BLISS OF ACCEPTANCE - FIN"
+		},
+		{
+			"background": "res://sprites/CG/staff.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 20,
+			"waiting_skippable": true
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_scene": "res://MainMenu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666524349.json",
+		"name": "end_true"
+	}
+}

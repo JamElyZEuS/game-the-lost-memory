@@ -1,0 +1,111 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey. Don’t you think we’re kinda, you know, lost?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smile",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t worry. We’re in Muenzuka now. A place where lone dead people are resting."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "No, I know that. I just don’t understand why we’re here.\nAnd how have we even got here in the first place."
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Are you lost your memories too? We were just wandering here and there."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Sigh… How can I even talk to such an airhead?"
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I think we can find something here.\nMuenzuka is full of things from the Outside World. Maybe they could pull some triggers in my mind."
+		},
+		{
+			"character": "character-1666450739.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Yeah, now we’re talking! Let’s go!"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_off",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666461813.json",
+		"name": "Level2_start"
+	}
+}

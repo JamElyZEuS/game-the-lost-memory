@@ -1,0 +1,41 @@
+{
+	"color": "#ffb133bf",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1666505501.json",
+	"mirror_portraits": false,
+	"name": "Yukari",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://sprites/portraits/yukari/yukari_story1.png"
+		},
+		{
+			"name": "Smile",
+			"path": "res://sprites/portraits/yukari/yukari_story2.png"
+		},
+		{
+			"name": "Look at camera",
+			"path": "res://sprites/portraits/yukari/yukari_story3.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://sprites/portraits/yukari/yukari_story4.png"
+		},
+		{
+			"name": "Eyes closed",
+			"path": "res://sprites/portraits/yukari/yukari_story5.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://sprites/portraits/yukari/yukari_story6.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

@@ -1,0 +1,41 @@
+{
+	"color": "#ffde8c4b",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1666450739.json",
+	"mirror_portraits": false,
+	"name": "Suika",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://sprites/portraits/suika/suika_story1.png"
+		},
+		{
+			"name": "Smile",
+			"path": "res://sprites/portraits/suika/suika_story2.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://sprites/portraits/suika/suika_story3.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://sprites/portraits/suika/suika_story4.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://sprites/portraits/suika/suika_story5.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://sprites/portraits/suika/suika_story6.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

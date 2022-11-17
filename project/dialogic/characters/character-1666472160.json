@@ -1,0 +1,37 @@
+{
+	"color": "#ff49b375",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1666472160.json",
+	"mirror_portraits": false,
+	"name": "Youmu",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://sprites/portraits/youmu/youmu_story1.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://sprites/portraits/youmu/youmu_story2.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://sprites/portraits/youmu/youmu_story3.png"
+		},
+		{
+			"name": "Eyes closed",
+			"path": "res://sprites/portraits/youmu/youmu_story4.png"
+		},
+		{
+			"name": "Angry thoughts",
+			"path": "res://sprites/portraits/youmu/youmu_story5.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

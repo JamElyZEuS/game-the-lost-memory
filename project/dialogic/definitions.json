@@ -1,0 +1,55 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1666455388-861",
+			"name": "shattered1",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1666535528-366",
+			"name": "final_reached",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1666455463-141",
+			"name": "shattered2",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1666455472-270",
+			"name": "shattered3",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1666455482-151",
+			"name": "yukari",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1666507965-648",
+			"name": "good_end",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1667057132-648",
+			"name": "bad_end",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1667057147-787",
+			"name": "true_end",
+			"type": 0,
+			"value": "false"
+		}
+	]
+}

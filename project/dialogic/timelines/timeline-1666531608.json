@@ -1,0 +1,32 @@
+{
+	"events": [
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1667059144.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DISCLAIMER\nThis game contains image of blood and a sensetive topic - suicide.\nIf you feel uncomfortable about these things, please be careful or do not play.\nAnd remember: your life is precious, no matter who you are.\nTake care, and enjoy the game!"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"change_scene": "res://MainMenu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666531608.json",
+		"name": "disclaimer"
+	}
+}

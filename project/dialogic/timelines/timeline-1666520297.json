@@ -1,0 +1,409 @@
+{
+	"events": [
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "cutscene_on",
+				"target_node_path": "../../Player"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "stop",
+				"target_node_path": "../../AudioStreamPlayer2"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What are you planning, Yukari?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Eyes closed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"background": "res://sprites/CG/saigyou_fakemem.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1667059144.cfg"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "res://bgm/levelfinal_start.ogg",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2.5
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Poor girl. What a terrible fate she had."
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Indeed. But with all my condolences, she still isn’t going to the Netherworld."
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But why? She had no misdeeds in her entire life. There are quite a few of people like her in this world.\nOr can it be that you’re talking about accidental uses of her tragic spiritual energy?"
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, that’s not it.\nYou’re forgetting one crucial misdeed. Her last deed she has done in her life."
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, I see...\nBut can you really judge her for that? She saved a lot of people from death that she was emitting."
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I understand how you feel, but…"
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let’s make a deal, then.\nIf she had saved even more people by, let’s say, neutralizing this youkai tree, would you forgive her?"
+		},
+		{
+			"character": "character-1666452388.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yukari… Alright, I’ll turn a blind eye if the tree stops ruining people's lives."
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excellent. Leave it to me.\nYuyuko Saigyouji, let me channel your last, yet so powerful energy to seal this wild youkai and let people live their lives happily!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://sprites/CG/light.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://sprites/CG/darkness.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Serious",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now you know everything.\nUse these memories to achieve the best possible outcome."
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "Look at camera",
+			"text": "You know where do you need to go.\nThe place where this life began, and where this story ended."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666520936.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, and hold on to this thing! It is important!"
+		},
+		{
+			"definition": "1666455482-151",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Farewell. And thank you for the assistance."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666505501.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1666520936.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "H-Hey, Yukari, wait!"
+		},
+		{
+			"character": "character-1666520936.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1666450487.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "What is even going on? I don’t-"
+		},
+		{
+			"change_scene": "res://MainMenu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666520297.json",
+		"name": "LevelExtra_end"
+	}
+}
