@@ -1,6 +1,6 @@
 # The Lost Memory
 ## Top-down view action-adventure + visual novel
-## A game made for Touhou Fan Game Jam 9 on itch.io. https://jamnedz.itch.io/the-lost-memory
+## A game made for Touhou Fan Game Jam 9 on itch.io with Godot Engine. https://jamnedz.itch.io/the-lost-memory
 
 ### Help to find a peace of mind!
 Yuyuko Saigyouji, a ghost living in Gensokyo, is curious to find out about her past. Assist her in her short but meaningful adventure!
